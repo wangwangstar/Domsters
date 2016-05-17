@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a87f34c7-c90e-4063-800f-4dc7c176431e" name="Default" comment="add basic.html">
+    <list default="true" id="a87f34c7-c90e-4063-800f-4dc7c176431e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/basic.css" afterPath="$PROJECT_DIR$/css/basic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/template.html" afterPath="$PROJECT_DIR$/html/template.html" />
     </list>
     <ignored path="Domsters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -325,7 +323,7 @@
       <workItem from="1463276992142" duration="1625000" />
       <workItem from="1463392747835" duration="3786000" />
       <workItem from="1463412227076" duration="293000" />
-      <workItem from="1463462321879" duration="3190000" />
+      <workItem from="1463462321879" duration="3287000" />
     </task>
     <task id="LOCAL-00001" summary="add img">
       <created>1463277272696</created>
@@ -362,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463412445052</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modified basic.html">
+      <created>1463469415470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463469415470</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9970000" />
+    <option name="totallyTimeSpent" value="10067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1278" height="726" extended-state="0" />
@@ -406,7 +411,8 @@
     <MESSAGE value="add contact.html" />
     <MESSAGE value="add img" />
     <MESSAGE value="add basic.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic.html" />
+    <MESSAGE value="modified basic.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified basic.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
