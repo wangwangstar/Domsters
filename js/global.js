@@ -42,6 +42,10 @@ function highLightPage() {
     var links = navs[0].getElementsByTagName('a');
     var linkurl;
     for (var i=0;i<links.length;i++){
-        
+        linkurl = links[i].getAttribute("here");
+        if(window.location.href.indexOf(linkurl) != -1){
+            links[i].className = "href";
+        }
     }
 }
+addLoadEvent(highLightPage);
