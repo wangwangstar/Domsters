@@ -93,3 +93,14 @@ header nav li a{
     #contact header{
         background-image: url("../img/drummer.gif");
 }
+    #slideshow{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        overflow: hidden;
+    }
+    #preview{
+        position: absolute;
+        border-width: 0;
+        outline-width: 0;
+    }
