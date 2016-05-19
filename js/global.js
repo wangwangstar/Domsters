@@ -94,6 +94,19 @@ function moveElement(elementID,final_x,final_y,interval) {
     var repeat = "moveElement('"+elementID+"',"+final_x+","+final_y+","+interval+")";
     elem.movement = setTimeout(repeat,interval);
 }
+//创建幻灯片元素并准备相应链接
 function prepareSlideshow() {
-    if(!document.getElementsByTagName)return false;
+    if (!document.getElementsByTagName)return false;
+    if (!document.getElementById)return false;
+    if (!document.getElementById("intro"))return false;
+    var intro = document.getElementById("intro");
+    var slideshow = document.createElement("div");
+    slideshow.setAttribute("id", "slideshow");
+    var preview = document.createElement("img");
+    preview.setAttribute("src", "../img/slideshow.gif");
+    preview.setAttribute("alt", "a glimpse of what awaits you");
+    preview.setAttribute("id", "preview");
+    slideshow.appendChild(preview);
+    insertAfter(slideshow, intro);
+    var links =intro.getElementsByTagName("a");
 }

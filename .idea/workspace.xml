@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a87f34c7-c90e-4063-800f-4dc7c176431e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/global.js" afterPath="$PROJECT_DIR$/js/global.js" />
     </list>
     <ignored path="Domsters.iws" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="global.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
+            <state relative-caret-position="462">
+              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc;n#addLoadEvent#0" expanded="false" />
               </folding>
@@ -100,7 +99,7 @@
       <file leaf-file-name="typography.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/typography.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="-219">
               <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding />
             </state>
@@ -344,7 +343,7 @@
       <workItem from="1463462321879" duration="22962000" />
       <workItem from="1463532292966" duration="3491000" />
       <workItem from="1463581833174" duration="3736000" />
-      <workItem from="1463618376647" duration="1914000" />
+      <workItem from="1463618376647" duration="4203000" />
     </task>
     <task id="LOCAL-00001" summary="add img">
       <created>1463277272696</created>
@@ -430,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463586900681</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modified global.js and layout.css">
+      <created>1463620351995</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1463620351995</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38883000" />
+    <option name="totallyTimeSpent" value="41172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="4" width="1278" height="726" extended-state="0" />
@@ -481,7 +487,8 @@
     <MESSAGE value="add global.js" />
     <MESSAGE value="modified index.html" />
     <MESSAGE value="modified global.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified global.js" />
+    <MESSAGE value="modified global.js and layout.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified global.js and layout.css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,14 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/typography.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -847,6 +846,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -857,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="97" column="51" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
+        <state relative-caret-position="462">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc;n#addLoadEvent#0" expanded="false" />
           </folding>
