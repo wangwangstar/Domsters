@@ -45,6 +45,10 @@ function highLightPage() {
         linkurl = links[i].getAttribute("here");
         if(window.location.href.indexOf(linkurl) != -1){
             links[i].className = "href";
+            //用JavaScript的toLowerCase方法把该文本转化成小写形式
+            var linktext = links[i].lastChild.nodeValue.toLowerCase();
+            //把变量的值设置为body元素的id属性，相当于在<body>标签中添加了id="home"
+            document.body.setAttribute("id",linktext);
         }
     }
 }
@@ -89,4 +93,7 @@ function moveElement(elementID,final_x,final_y,interval) {
     elem.style.top = ypos + "px";
     var repeat = "moveElement('"+elementID+"',"+final_x+","+final_y+","+interval+")";
     elem.movement = setTimeout(repeat,interval);
+}
+function prepareSlideshow() {
+    if(!document.getElementsByTagName)return false;
 }
